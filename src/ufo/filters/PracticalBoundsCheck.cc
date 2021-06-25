@@ -52,7 +52,7 @@ void PracticalBoundsCheck::applyFilter(const std::vector<bool> & apply,
   const float vmin = parameters_.minvalue.value().value_or(missing);
   const float vmax = parameters_.maxvalue.value().value_or(missing);
 
-// Sanity checks
+  // Sanity checks
   if (filtervars.nvars() == 0) {
     oops::Log::error() << "No variables will be filtered out in filter "
                        << config_ << std::endl;
