@@ -4,8 +4,6 @@
 # which can be obtained at http://www.apache.org/licenses/LICENSE-2.0.
 
 set ( filters_files
-      PracticalBoundsCheck.h
-      PracticalBoundsCheck.cc
       BackgroundCheck.cc
       BackgroundCheck.h
       BayesianBackgroundQCFlags.cc
@@ -57,6 +55,8 @@ set ( filters_files
       ObsDomainErrCheck.h
       ObsFilterData.cc
       ObsFilterData.h
+      PracticalBoundsCheck.cc
+      PracticalBoundsCheck.h
       PreQC.cc
       PreQC.h
       QCflags.h
