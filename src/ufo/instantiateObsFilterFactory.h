@@ -141,7 +141,7 @@ template<typename OBS> void instantiateObsFilterFactory() {
 
   // New check for academy exercise
   static oops::FilterMaker<OBS, oops::ObsFilter<OBS, ufo::PracticalBoundsCheck> >
-         practicalBoundsCheckMaker("Practical Bounds Check");
+           practicalBoundsCheckMaker("Practical Bounds Check");
 }
 
 }  // namespace ufo
