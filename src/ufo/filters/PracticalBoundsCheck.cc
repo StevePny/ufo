@@ -59,7 +59,7 @@ void PracticalBoundsCheck::applyFilter(const std::vector<bool> & apply,
     ABORT("No variables specified to be filtered out in filter");
   }
 
-// Loop over all variables to filter
+    // Loop over all variables to filter
     for (size_t jv = 0; jv < testvars.nvars(); ++jv) {
       //  get test data for this variable
       std::vector<float> testdata;
